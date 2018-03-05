@@ -60,8 +60,8 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-
-		 return programmer_hash[:dennis_ritchie][:languages].toString
+		 languages =  programmer_hash[:dennis_ritchie][:languages]
+		 return languages.toString()
 
 end
 
